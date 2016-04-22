@@ -3,12 +3,7 @@
     "description": "PHP class to crop images with yii2",
     "type": "php-class",
     "license": "MIT",
-    "keywords": [
-        "yii2 crop",
-        "yii2 image crop",
-        "crop class",
-        "crop"
-    ],
+    "keywords": ["yii2 crop", "yii2 image crop", "crop class", "crop"],
     "authors": [
         {
             "name": "Germano Ricardi",
@@ -25,5 +20,5 @@
         "psr-4": {
             "germanoricardi\\imagecrop\\": "src"
         }
-    },
+    }
 }
