@@ -4,6 +4,7 @@
     "type": "php-class",
     "license": "MIT",
     "keywords": ["yii2 crop", "yii2 image crop", "crop class", "crop"],
+    "homepage": "https://github.com/germanoricardi/yii2-imagecrop",
     "authors": [
         {
             "name": "Germano Ricardi",
