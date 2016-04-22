@@ -1,0 +1,29 @@
+{
+    "name": "germanoricardi/yii2-imagecrop",
+    "description": "PHP class to crop images with yii2",
+    "type": "php-class",
+    "license": "MIT",
+    "keywords": [
+        "yii2 crop",
+        "yii2 image crop",
+        "crop class",
+        "crop"
+    ],
+    "authors": [
+        {
+            "name": "Germano Ricardi",
+            "email": "germanoricardi7@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "yiisoft/yii2": ">=2.0.7",
+    },
+    "autoload": {
+        "psr-4": {
+            "germanoricardi\\imagecrop\\": "src"
+        }
+    },
+}
