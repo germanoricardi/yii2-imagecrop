@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/germanoricardi/yii2-imagecrop/v/stable)](https://packagist.org/packages/germanoricardi/yii2-imagecrop) [![Total Downloads](https://poser.pugx.org/germanoricardi/yii2-imagecrop/downloads)](https://packagist.org/packages/germanoricardi/yii2-imagecrop) [![Latest Unstable Version](https://poser.pugx.org/germanoricardi/yii2-imagecrop/v/unstable)](https://packagist.org/packages/germanoricardi/yii2-imagecrop) [![License](https://poser.pugx.org/germanoricardi/yii2-imagecrop/license)](https://packagist.org/packages/germanoricardi/yii2-imagecrop)
+
 # yii2-imagecrop
 Crop images with this class is **very simple**!
 
@@ -18,8 +20,8 @@ public function actionCrop(){
     $imageCrop = new ImageCrop();
     $imageCrop->imageSourcePath	= '@webroot/medias/';
     $imageCrop->imagesSizes		= [
-        ['path' => '@webroot/medias/thumbs/', 'width' => '200', 'height' => '200', 'label' => 'Thumbs'],
-        ['path' => '@webroot/medias/large/', 'width' => '800', 'height' => '600', 'label' => 'Large', 'watermark' => '@webroot/watermark.png']
+        ['path' => '@webroot/medias/thumbs/', 'width' => '200', 'height' => '200'],
+        ['path' => '@webroot/medias/large/', 'width' => '800', 'height' => '600', 'watermark' => '@webroot/watermark.png']
     ];
     $imageCrop->imageFileName	= 'image-to-crop.jpg';
     $imageCrop->init();
@@ -32,8 +34,8 @@ If you are working with a jQuery plugin for crop image parameters can be passed 
     $imageCrop = new ImageCrop();
     $imageCrop->imageSourcePath	= '@webroot/medias/';
     $imageCrop->imagesSizes		= [
-        ['path' => '@webroot/medias/thumbs/', 'width' => '200', 'height' => '200', 'label' => 'Thumbs'],
-        ['path' => '@webroot/medias/large/', 'width' => '800', 'height' => '600', 'label' => 'Large', 'watermark' => '@webroot/watermark.png']
+        ['path' => '@webroot/medias/thumbs/', 'width' => '200', 'height' => '200'],
+        ['path' => '@webroot/medias/large/', 'width' => '800', 'height' => '600', 'watermark' => '@webroot/watermark.png']
     ];
     $imageCrop->imageFileName	= 'image-to-crop.jpg';
     
@@ -45,4 +47,4 @@ If you are working with a jQuery plugin for crop image parameters can be passed 
 License
 ----
 
-MIT
+[![License](https://poser.pugx.org/germanoricardi/yii2-imagecrop/license)](https://packagist.org/packages/germanoricardi/yii2-imagecrop)
