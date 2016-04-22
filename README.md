@@ -34,7 +34,7 @@ _**Part of this class code was implemented by a [document](https://github.com/fe
 Add the following code in a controller, **the image that will be used for cutting should already be on your server**, that is, the code should be run after the file upload. **The original image is always preserved**.
 
 ```ssh
-use app\components\germanoricardi\ImageCrop;
+use germanoricardi\imagecrop\ImageCrop;
 
 public function actionCrop(){
     $imageCrop = new ImageCrop();
