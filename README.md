@@ -8,6 +8,26 @@ Crop images with this class is **very simple**!
  - Customized cutting area with json;
  - Watermark;
 
+## Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+### Install
+
+Either run
+
+```
+$ php composer.phar require germanoricardi/yii2-imagecrop "*"
+```
+
+or add
+
+```
+"germanoricardi/yii2-imagecrop": "*"
+```
+
+to the ```require``` section of your `composer.json` file.
+
 _**Part of this class code was implemented by a [document](https://github.com/fengyuanchen/cropper/tree/master/examples/crop-avatar) made available by [fengyuanchen](https://github.com/fengyuanchen)_.
 
 ## How to use

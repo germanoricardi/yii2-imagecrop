@@ -7,7 +7,7 @@
 * @version 1.0
 */
 
-namespace app\components\germanoricardi;
+namespace germanoricardi\imagecrop;
 
 use Yii;
 use yii\base\Exception;
