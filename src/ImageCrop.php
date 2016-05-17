@@ -71,7 +71,7 @@ class ImageCrop
 	*/
 	public function isOrCreateDir($path)
 	{
-        $_path = Yii::getAlias('@webroot' . str_replace('@webroot', null, $path));
+        $_path = Yii::getAlias($path);
 
 		if(!is_dir($_path))
 			try {
